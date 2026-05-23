@@ -1,0 +1,10 @@
+{
+  "recipes": {},
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/minspec/recipes",
+    "origin_template": "{package}:{version}@github.com/minspec/recipes:main",
+    "recipe_template": "https://api.github.com/repos/minspec/recipes/contents/{package_dotted}.{version}.json"
+  }
+}
