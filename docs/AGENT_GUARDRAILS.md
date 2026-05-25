@@ -25,6 +25,8 @@ AI and automation tools must not:
 - introduce remote code sources
 - silently rewrite recipe policy
 
+Pull requests are enabled but restricted to collaborators only. That setting does not make AI agents, GitHub Apps, bots, automation, Dependabot, Copilot agents, browser agents, or external tools into maintainers or trusted source authorities.
+
 ## Required evidence for recipe changes
 
 Any agent-produced recipe proposal should include:
