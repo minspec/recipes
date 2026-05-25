@@ -120,9 +120,17 @@ A good first recipe should prove:
 
 ## Governance
 
-MinSpec is founder-controlled during incubation. Public visibility does not imply public write access or public governance.
+MinSpec is founder-controlled during incubation. Public visibility does not imply public governance, public write access, or an open contribution process.
 
-Outside questions, issues, reproducible bug reports, and security reports may be useful. Unsolicited code PRs are not part of the trusted source path during incubation.
+Pull requests are enabled but restricted to collaborators only. Only users with repository write, maintain, or admin access may open pull requests.
+
+Collaborator PR access is an operational mechanism for trusted maintainers and approved collaborators. It is not a public contribution path.
+
+Outside questions, issues, reproducible bug reports, documentation clarity suggestions, design feedback, and security reports may be useful where intentionally enabled. Opening an issue or providing feedback does not grant contribution authority, source authority, maintainer status, or approval to submit code changes.
+
+Unsolicited external PRs are not part of the trusted source path during incubation.
+
+AI agents, GitHub Apps, bots, automation, Dependabot, Copilot agents, browser agents, and external tools are not maintainers and do not gain source authority from collaborator-only PR settings.
 
 See `CONTRIBUTING.md`, `SECURITY.md`, and `docs/AGENT_GUARDRAILS.md`.
 
