@@ -1,10 +1,15 @@
 {
-  "recipes": {},
-  "branch": "main",
+  "recipes": {
+    "minspec/fixture-hello": [
+      "1.0"
+    ]
+  },
+  "branch": "master",
   "is_contrib": true,
   "_links": {
     "repository": "github.com/minspec/recipes",
-    "origin_template": "{package}:{version}@github.com/minspec/recipes:main",
+    "origin_template": "{package}:{version}@github.com/minspec/recipes:master",
     "recipe_template": "https://api.github.com/repos/minspec/recipes/contents/{package_dotted}.{version}.json"
-  }
+  },
+  "recipe_template": "https://api.github.com/repos/minspec/recipes/contents/{package_dotted}.{version}.json?ref=master"
 }
