@@ -1,0 +1,25 @@
+{
+  "manifests": {
+    "minspec/fixture-hello": {
+      "manifest": {
+        "bundles": {
+          "Minspec\\FixtureHello\\FixtureHelloBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        }
+      },
+      "files": {
+        "config/packages/fixture_hello.yaml": {
+          "contents": [
+            "parameters:",
+            "    fixture_hello.greeting: 'wired-by-recipe'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "e2e-fixture-1.0"
+    }
+  }
+}
