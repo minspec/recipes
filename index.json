@@ -5,7 +5,7 @@
     ]
   },
   "branch": "master",
-  "is_contrib": true,
+  "is_contrib": false,
   "_links": {
     "repository": "github.com/minspec/recipes",
     "origin_template": "{package}:{version}@github.com/minspec/recipes:master",
